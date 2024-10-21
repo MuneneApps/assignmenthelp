@@ -23,12 +23,28 @@
       border-radius: 8px;
       padding: 20px;
       text-align: center;
-      background-color: #f9f9f9;
-    }
-    .service-box:hover {
-      background-color: #e0f7fa;
+      color: white;
       transition: background-color 0.3s ease;
     }
+    /* Different background colors for each box */
+    .service-box:nth-child(1) { background-color: #ff5733; } /* Red-orange */
+    .service-box:nth-child(2) { background-color: #33c4ff; } /* Light blue */
+    .service-box:nth-child(3) { background-color: #33ff57; } /* Green */
+    .service-box:nth-child(4) { background-color: #ff33c4; } /* Pink */
+    .service-box:nth-child(5) { background-color: #ffb833; } /* Orange-yellow */
+    .service-box:nth-child(6) { background-color: #3359ff; } /* Blue */
+    .service-box:nth-child(7) { background-color: #33ffb8; } /* Aqua green */
+    .service-box:nth-child(8) { background-color: #ff3333; } /* Red */
+    .service-box:nth-child(9) { background-color: #7d33ff; } /* Purple */
+    .service-box:nth-child(10) { background-color: #33ff99; } /* Mint green */
+    .service-box:nth-child(11) { background-color: #ff8833; } /* Dark orange */
+    .service-box:nth-child(12) { background-color: #33c7ff; } /* Sky blue */
+    
+    /* Hover effect for all boxes */
+    .service-box:hover {
+      opacity: 0.8;
+    }
+
     .contact-icons {
       margin-top: 20px;
       text-align: center;
@@ -70,7 +86,7 @@
   <section class="services">
     <h2>We are BEST in:</h2>
     <div class="grid-container">
-      <!-- Service boxes in grid layout -->
+      <!-- Service boxes in grid layout with different background colors -->
       <div class="service-box">Dissertations</div>
       <div class="service-box">Lab Work</div>
       <div class="service-box">Programming</div>
